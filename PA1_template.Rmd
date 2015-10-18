@@ -36,7 +36,7 @@ head(actmed)
 ## What is the average daily activity pattern?
 #### "actint"  = average number of steps taken across all days
 #### "maxstep" = interval with maximum number of steps
-```{r Plot average daily activity pattern and find interval with maximum number of     steps, echo=TRUE}
+```{r Plot average daily activity pattern and find interval with maximum number      of steps, echo=TRUE}
 actint <- aggregate(act$steps ~ act$interval, act, mean, na.action = na.omit)
 plot(actint$`act$interval`, actint$`act$steps`, type = 'l', 
      xlab = '5 Minute Interval', ylab = 'Average Number of Steps',

@@ -73,7 +73,7 @@ plot(actint$`act$interval`, actint$`act$steps`, type = 'l',
      main = 'Average Daily Activity Pattern')
 ```
 
-![plot of chunk Plot average daily activity pattern and find interval with maximum number of     steps](figure/Plot average daily activity pattern and find interval with maximum number of     steps-1.png) 
+![plot of chunk Plot average daily activity pattern and find interval with maximum number      of steps](figure/Plot average daily activity pattern and find interval with maximum number      of steps-1.png) 
 
 ```r
 maxstep <- subset(actint, actint$'act$steps' == max(actint$'act$steps'))
